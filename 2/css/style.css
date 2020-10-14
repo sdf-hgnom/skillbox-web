@@ -64,7 +64,6 @@ a {
 .navigation-link {
   display: inline-block;
   color: white;
-
 }
 .navigation-link-download {
   background-color: #2f1ce4;
@@ -90,10 +89,12 @@ a {
   background-position: left center;
 }
 .navigation-link-back {
-  margin-left: 1em;
+  margin-left: 1.5em;
   color: black;
 }
-
+.color-skillbox {
+  color: #2f1ce4;
+}
 .about-header {
    margin-top: 100px;
    padding-left: 100px;
@@ -104,7 +105,7 @@ a {
   padding-left: 180px;
   padding-top: 100px;
   padding-bottom: 25px;
-  color: #2f1ce4;
+
   font-size: 36px;
 }
 .all-lists {
@@ -124,4 +125,20 @@ a {
 }
 .all-images {
   max-width: 400px;
+}
+.color-skillbox span {
+  color: black;
+}
+#tags {
+  margin-top: 100px;
+  border: 1px solid #a0a0a0 ;
+  border-collapse: collapse
+}
+#tags td,th {
+  border: 1px solid #a0a0a0 ;
+  padding: 3px;
+}
+.last {
+  text-align: center;
+
 }
