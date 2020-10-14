@@ -76,4 +76,21 @@ a {
   border: 3px solid white;
   padding: 20px;
 }
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navigation-link-back-background {
+  color: white;
+  background-image: url(../images/return.png);
+  background-repeat: no-repeat;
+  background-size: 1em;
+  background-position: left center;
+}
+.navigation-link-back {
+  margin-left: 1em;
+  color: black;
+}
 
