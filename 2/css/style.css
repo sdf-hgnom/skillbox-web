@@ -107,3 +107,21 @@ a {
   color: #2f1ce4;
   font-size: 36px;
 }
+.all-lists {
+  padding-left: 200px;
+  font-size: 18px;
+}
+.all-paragrafs {
+  padding-left: 180px;
+  padding-bottom: 20px;
+}
+.figure-container {
+  display: inline-block;
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.all-images {
+  max-width: 400px;
+}
