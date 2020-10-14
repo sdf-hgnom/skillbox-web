@@ -64,13 +64,15 @@ a {
 .navigation-link {
   display: inline-block;
   color: white;
-  background-color: #2f1ce4;
+
 }
 .navigation-link-download {
+  background-color: #2f1ce4;
   border: 3px solid #2f1ce4;
   padding: 20px;
 }
 .navigation-link-detail {
+  background-color:transparent;
   border: 3px solid white;
   padding: 20px;
 }
