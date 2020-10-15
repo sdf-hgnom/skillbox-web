@@ -50,18 +50,18 @@ a {
 }
 
 .main-content {
-  background-color: #222020;
-  height: 100vh;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #222020;
 }
 
 .main-header {
-  color: white;
-  font-family: ‘Graphik LCG’, sans-serif;
   margin-bottom: 30px;
+  font-family: ‘Graphik LCG’, sans-serif;
+  color: white;
 }
 
 .navigation-link {
@@ -70,15 +70,15 @@ a {
 }
 
 .navigation-link-download {
-  background-color: #2f1ce4;
   border: 3px solid #2f1ce4;
   padding: 20px;
+  background-color: #2f1ce4;
 }
 
 .navigation-link-detail {
-  background-color: transparent;
   border: 3px solid white;
   padding: 20px;
+  background-color: transparent;
 }
 
 .container {
@@ -89,11 +89,12 @@ a {
 }
 
 .navigation-link-back-background {
-  color: white;
+
   background-image: url(../images/return.png);
   background-repeat: no-repeat;
   background-size: 1em;
   background-position: left center;
+  color: white;
 }
 
 .navigation-link-back {
@@ -154,9 +155,9 @@ a {
 #tags td,
 th {
   border: 1px solid #a0a0a0;
-  padding: 3px;
+  padding: 5px;
 }
 
-.last {
+.last-td {
   text-align: center;
 }
