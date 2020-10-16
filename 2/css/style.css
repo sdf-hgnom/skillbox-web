@@ -49,6 +49,7 @@ a {
   text-decoration: none;
 }
 
+/* Containers for pages and figures*/
 .main-content {
   display: flex;
   height: 100vh;
@@ -58,12 +59,44 @@ a {
   background-color: #222020;
 }
 
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.figure-container {
+  display: inline-block;
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Headers */
 .main-header {
   margin-bottom: 30px;
   font-family: "Graphik LCG", sans-serif;
   color: #fff;
 }
 
+.about-header {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.other-headers {
+  padding-left: 180px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  font-size: 36px;
+}
+
+/* Links */
 .navigation-link {
   display: inline-block;
   color: #fff;
@@ -90,30 +123,13 @@ a {
   color: #000;
 }
 
-.container {
-  width: 1170px;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+.tags-link {text-decoration: underline;}
 
 .color-skillbox {
   color: #2f1ce4;
 }
 
-.about-header {
-  margin-top: 100px;
-  padding-left: 100px;
-  font-size: 48px;
-  color: #222020;
-}
 
-.other-headers {
-  padding-left: 180px;
-  padding-top: 100px;
-  padding-bottom: 25px;
-  font-size: 36px;
-}
 
 .info-list {
   padding-left: 200px;
@@ -125,33 +141,33 @@ a {
   font-size: 18px;
 }
 
-.programm-list > li > span {color: #000;}
+.programm-list span {
+  color: #000;
+}
 
 .all-paragrafs {
   padding-left: 180px;
   padding-bottom: 20px;
 }
 
-.figure-container {
-  display: inline-block;
-  text-align: center;
-  padding-left: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
+.all-images {
+  max-width: 400px;
 }
 
-.all-images {max-width: 400px;}
-
-.tags-link {text-decoration: underline;}
 .tags {
   margin-top: 100px;
   margin-left: 100px;
   border-collapse: collapse
 }
 
-.tags-border,
-td,
-th {border: 1px solid #a0a0a0;}
+
+
+
+.tags-border td,
+.tags-border th {
+  border: 1px solid #a0a0a0;
+}
 
 .tags-last-td {
   text-align: center;
