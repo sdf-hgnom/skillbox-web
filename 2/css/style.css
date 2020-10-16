@@ -91,7 +91,7 @@ a {
 .navigation-link-back {
   background-image: url("../images/return.png");
   background-repeat: no-repeat;
-  background-size: 10px;
+  background-size: 27px;
   background-position: left center;
   padding-left: 10px;
   color:#000;
@@ -99,7 +99,7 @@ a {
 
 .navigation-link-back span {
   color: #000;
-  padding-left: 1.5em;
+  padding-left: 15px;
 }
 
 .color-skillbox {
