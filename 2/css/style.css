@@ -123,7 +123,9 @@ a {
   color: #000;
 }
 
-.tags-link {text-decoration: underline;}
+.tags-link {
+  text-decoration: underline;
+}
 
 .color-skillbox {
   color: #2f1ce4;
