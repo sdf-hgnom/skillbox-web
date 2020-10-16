@@ -61,12 +61,12 @@ a {
 .main-header {
   margin-bottom: 30px;
   font-family: "Graphik LCG", sans-serif;
-  color: white;
+  color: #fff;
 }
 
 .navigation-link {
   display: inline-block;
-  color: white;
+  color: #fff;
 }
 
 .navigation-link-download {
@@ -76,16 +76,9 @@ a {
 }
 
 .navigation-link-detail {
-  border: 3px solid white;
+  border: 3px solid #fff;
   padding: 20px;
   background-color: transparent;
-}
-
-.container {
-  width: 1170px;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .navigation-link-back {
@@ -93,13 +86,15 @@ a {
   background-repeat: no-repeat;
   background-size: 27px;
   background-position: left center;
-  padding-left: 10px;
-  color:#000;
+  padding-left: 35px;
+  color: #000;
 }
 
-.navigation-link-back span {
-  color: #000;
-  padding-left: 15px;
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .color-skillbox {
@@ -120,10 +115,17 @@ a {
   font-size: 36px;
 }
 
-.all-lists {
+.info-list {
   padding-left: 200px;
   font-size: 18px;
 }
+
+.programm-list {
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.programm-list > li > span {color: #000;}
 
 .all-paragrafs {
   padding-left: 180px;
@@ -138,26 +140,20 @@ a {
   padding-bottom: 50px;
 }
 
-.all-images {
-  max-width: 400px;
-}
+.all-images {max-width: 400px;}
 
-.color-skillbox span {
-  color: #000;
-}
-
+.tags-link {text-decoration: underline;}
 .tags {
   margin-top: 100px;
-  border: 1px solid #a0a0a0;
+  margin-left: 100px;
   border-collapse: collapse
 }
 
-.tags td,
-th {
-  border: 1px solid #a0a0a0;
-  padding: 5px;
-}
+.tags-border,
+td,
+th {border: 1px solid #a0a0a0;}
 
-.last-td {
+.tags-last-td {
   text-align: center;
+  font-weight: bold;
 }
