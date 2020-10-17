@@ -169,15 +169,11 @@ a {
   border-collapse: collapse
 }
 
-
-
-
-.tags-border td,
-.tags-border th {
+.tags-items {
   border: 1px solid #a0a0a0;
 }
 
-.tags-last-td {
+.tags-items-last {
   text-align: center;
   font-weight: 700;
 }
