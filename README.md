@@ -1,3 +1,3 @@
 # skillbox-web
-Cource Skillbox «Веб-вёрстка»
-Домашние задания
+Курс Skillbox «Веб-вёрстка» -
+Задания
