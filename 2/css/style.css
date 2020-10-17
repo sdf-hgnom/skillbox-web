@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Graphik LCG";
-  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
-    url("../fonts/Gilroy-Medium.woff") format("woff");
+  src: url("../fonts/GraphikLCG-Medium.woff2") format("woff2"),
+    url("../fonts/GraphikLCG-Medium.woff") format("woff");
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -79,6 +79,7 @@ a {
 .main-header {
   margin-bottom: 30px;
   font-family: "Graphik LCG", sans-serif;
+  font-weight: 500;
   color: #fff;
 }
 
