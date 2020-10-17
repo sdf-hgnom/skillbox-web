@@ -12,7 +12,7 @@
   src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
     url("../fonts/Gilroy-Regular.woff") format("woff");
   font-display: swap;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -75,7 +75,9 @@ a {
   padding-bottom: 50px;
 }
 
-.navigation { margin-top: 50px; }
+.navigation {
+  margin-top: 50px;
+}
 
 /* Headers */
 .main-header {
@@ -177,5 +179,5 @@ a {
 
 .tags-last-td {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
 }
