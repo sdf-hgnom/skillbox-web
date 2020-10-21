@@ -68,11 +68,12 @@ a {
 }
 
 .figure-container {
-  display: inline-block;
+  display: table;
   text-align: center;
   padding-left: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 400px;
 }
 
 .navigation {
@@ -143,11 +144,13 @@ a {
 .info-list {
   padding-left: 200px;
   font-size: 18px;
+  line-height: .9;
 }
 
 .programm-list {
   padding-left: 200px;
   font-size: 18px;
+  line-height: 2;
 }
 
 .programm-list-items {
@@ -161,20 +164,51 @@ a {
 
 
 .all-images {
-  max-width: 400px;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .tags {
-  margin-top: 100px;
+  margin-top: 230px;
   margin-left: 100px;
+  width: 980px;
   border-collapse: collapse
 }
 
-.tags-items {
+
+.tags-border {
   border: 1px solid #a0a0a0;
 }
+.tags-items-caption {
+  padding-bottom: 34px;
+}
 
-.tags-items-last {
+.tags-items-th {
+  height: 36px;
+
+}
+
+.tags-items-td {
+  height: 60px;
+
+}
+
+.tags-item-left1-td {
+  width: 150px;
+}
+
+.tags-item-left2-td {
+  width: 340px;
+}
+
+.tags-item-right1-td {
+  width: 210px;
+}
+.tags-item-right2-td {
+  width: 280px;
+}
+
+.tags-item-last {
   text-align: center;
   font-weight: 700;
 }
