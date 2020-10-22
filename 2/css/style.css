@@ -73,7 +73,10 @@ a {
   padding-left: 200px;
   margin-top: 50px;
   margin-bottom: 50px;
-  max-width: 400px;
+  max-width: 600px;
+}
+.figure-caption {
+  padding-top: 34px;
 }
 
 .navigation {
