@@ -163,7 +163,7 @@ a {
 
 .programm-list-items {
   color: #000;
-  line-height: 2;
+  line-height: 2.1;
   font-weight: 400;
 }
 
@@ -181,7 +181,7 @@ a {
 }
 
 .tags {
-  margin-top: 246px;
+  margin-top: 236px;
   margin-left: 102px;
   width: 980px;
   border-collapse: collapse
