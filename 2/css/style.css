@@ -97,13 +97,33 @@ a {
 }
 
 .modules-card {
-  width: 483px;
+  width: 480px;
   height: 508px;
-  background-image: url("../images/photo-1.jpg");
-  background-position: left center;
-  background-size: 480px auto;
+
+  background-position: left top;
+background-size: 480px 200px;
 
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
+}
+
+.modules-card-1 {
+  background-image: url("../images/photo-1.png");
+
+}
+
+.modules-card-2 {
+  background-image: url("../images/photo-2.png");
+
+}
+
+.modules-card-3 {
+  background-image: url("../images/photo-3.png");
+
+}
+
+.modules-card-4 {
+  background-image: url("../images/photo-4.png");
+
 }
 .figure-caption {
   padding-top: 15px;
