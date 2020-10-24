@@ -53,14 +53,20 @@ a {
 .modules-body {
   width: 1920px;
   box-sizing: border-box;
+  background-color: #f2f2f2;
+  background-image:  url("../images/figure_1.svg");
+  background-position: bottom -300px center;
+  background-repeat: no-repeat ;
+  padding-bottom: 400px;
 }
 
 
 .modules-container {
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
   width: 1550px;
   margin-top: 51px;
   margin-left: 370px;
+  overflow: hidden;
 
 }
 
@@ -378,6 +384,7 @@ background-size: 480px 200px;
   margin-left: auto;
   margin-right: auto;
   width: 280px;
+  background: rgba(0, 0, 0, 0.0001);
   border-radius: 2px;
   border: 3px solid #2f1ce4;
 
@@ -392,10 +399,12 @@ background-size: 480px 200px;
 }
 
 .modules-figure {
-  margin-top: -400px;
+  margin-top: -360px;
+  margin-left: -375px;
 }
 
 .modules-wraper {
   width: 100%;
-
 }
+
+
