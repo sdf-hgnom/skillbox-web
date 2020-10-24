@@ -91,14 +91,21 @@ a {
 }
 
 .modules-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: space-between;
   margin-top: 70px;
   margin-left: 85px;
+  width: 1040px;
   border: 2px solid black;
 }
 
 .modules-card {
   width: 480px;
   height: 508px;
+  margin: 24px;
 
   background-position: left top;
 background-size: 480px 200px;
@@ -113,16 +120,21 @@ background-size: 480px 200px;
 
 .modules-card-2 {
   background-image: url("../images/photo-2.png");
+  margin-left: 0;
+
 
 }
 
 .modules-card-3 {
   background-image: url("../images/photo-3.png");
+  margin-top: 0;
 
 }
 
 .modules-card-4 {
   background-image: url("../images/photo-4.png");
+  margin-left: 0;
+  margin-top: 0;
 
 }
 .figure-caption {
