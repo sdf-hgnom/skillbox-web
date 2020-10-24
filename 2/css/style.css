@@ -58,7 +58,7 @@ a {
 
 .modules-container {
   background: #f2f2f2;
-  width: 100%;
+  width: 1550px;
   margin-top: 51px;
   margin-left: 370px;
 
@@ -97,7 +97,8 @@ a {
   flex: 1 1 auto;
   justify-content: space-between;
   margin-top: 70px;
-  margin-left: 85px;
+  margin-left: auto;
+  margin-right: auto;
   width: 1040px;
   border: 2px solid black;
 }
@@ -369,4 +370,32 @@ background-size: 480px 200px;
   line-height: 56px;
   letter-spacing: 0.48px;
   color: #EAEAEA;
+}
+
+
+.modules-botton {
+  margin-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  border-radius: 2px;
+  border: 3px solid #2f1ce4;
+
+}
+
+.modules-botton-text {
+  font-size: 18px;
+  line-height: 56px;
+  color: #2f1ce4;
+  text-align: center;
+
+}
+
+.modules-figure {
+  margin-top: -400px;
+}
+
+.modules-wraper {
+  width: 100%;
+
 }
