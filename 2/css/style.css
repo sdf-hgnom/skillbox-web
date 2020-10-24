@@ -50,6 +50,20 @@ a {
 }
 
 /* Containers for pages and figures*/
+.modules-body {
+  width: 1920px;
+  box-sizing: border-box;
+}
+
+
+.modules-container {
+  background: #f2f2f2;
+  width: 100%;
+  margin-top: 51px;
+  margin-left: 370px;
+
+}
+
 .main-content {
   display: flex;
   height: 100vh;
@@ -75,6 +89,22 @@ a {
   margin-bottom: 55px;
 
 }
+
+.modules-card-container {
+  margin-top: 70px;
+  margin-left: 85px;
+  border: 2px solid black;
+}
+
+.modules-card {
+  width: 483px;
+  height: 508px;
+  background-image: url("../images/photo-1.jpg");
+  background-position: left center;
+  background-size: 480px auto;
+
+  box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
+}
 .figure-caption {
   padding-top: 15px;
 }
@@ -90,6 +120,22 @@ a {
   font-family: "Graphik LCG", sans-serif;
   font-weight: 500;
   color: #fff;
+}
+
+.modules-main-header {
+  margin-top: 79px;
+  margin-left: 110px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.modules-cards-header {
+
+  margin-left: 54px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 56px;
 }
 
 .about-header {
@@ -140,8 +186,31 @@ a {
   color: #000;
 }
 
+.modules-navigation-link-back {
+  display: block;
+  margin-top: 23px;
+  font-size: 18px;
+  line-height: 56px;
+}
 .tags-link {
   text-decoration: underline;
+}
+
+.modules-skillbox-link {
+  margin-top: 1px;
+  margin-left: 1px;
+  text-decoration: underline;
+  text-decoration-color: #2f1ce4;
+  font-family: Graphik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
 }
 
 .color-skillbox {
@@ -234,4 +303,38 @@ a {
 
 .info-list-li {
   margin-top: 15px;
+}
+
+.test-div {
+  width: 200px;
+  height: 200px;
+  background:red;
+}
+
+.modules-cards-ul {
+  margin-left: 55px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: #222020;
+  letter-spacing: 0.16px;
+}
+
+.modules-card-opis {
+  position: relative;
+  top: 200px;
+  height: 308px;
+  background:#fff;
+}
+
+.modules-card-number {
+  position: absolute;
+  top: 240px;
+  right: 14px;
+
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.48px;
+  color: #EAEAEA;
 }
