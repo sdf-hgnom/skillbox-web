@@ -15,6 +15,33 @@
   background-size: 100% 100%;
 
 }
+.page2 {
+  background-image: url(../images/page_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.page3 {
+  background-image: url(../images/page_3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.page4 {
+  background-image: url(../images/page_4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.page5 {
+  background-image: url(../images/page_5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
 
 .main-header {
   font-weight: 800;
@@ -72,4 +99,11 @@
   width: 600px;
   background-color: #fff;
   color: green;
+}
+.main-back-link {
+  color: black;
+}
+
+.main-back-link:hover {
+  color: red;
 }
