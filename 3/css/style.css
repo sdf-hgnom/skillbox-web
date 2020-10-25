@@ -82,9 +82,15 @@
 .main-ul-link {
   color: #2f1ce4;
 }
+
 .main-ul-link:hover {
   color: brown;
   background-color: #fff;
+}
+
+.main-ul-link:visited {
+
+  background-color: lightgreen;
 }
 
 .pages-opis {
