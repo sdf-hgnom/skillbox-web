@@ -13,9 +13,11 @@
   background-image: url(../images/page_1.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: tomato;
 
 }
 .page2 {
+  color: tomato;
   background-image: url(../images/page_2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -23,6 +25,7 @@
 }
 
 .page3 {
+  color: brown;
   background-image: url(../images/page_3.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -30,6 +33,7 @@
 }
 
 .page4 {
+  color: whitesmoke;
   background-image: url(../images/page_4.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -40,6 +44,7 @@
   background-image: url(../images/page_5.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: red;
 
 }
 
