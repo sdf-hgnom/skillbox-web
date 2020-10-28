@@ -230,7 +230,7 @@ a {
   margin-left: 1px;
   text-decoration: underline;
   text-decoration-color: #2f1ce4;
-  font-family: Graphik;
+  font-family: "Graphik";
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -330,11 +330,7 @@ a {
   margin-top: 15px;
 }
 
-.test-div {
-  width: 200px;
-  height: 200px;
-  background: red;
-}
+
 
 .modules-cards-ul {
   margin-left: 55px;
