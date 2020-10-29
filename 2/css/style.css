@@ -52,20 +52,19 @@ a {
 /* Containers for pages and figures*/
 .modules-body {
   width: 1920px;
-  padding : 0 370px;
   box-sizing: border-box;
-  background-color: #f2f2f2;
   background-image: url("../images/figure_1.svg");
-  background-position: bottom -300px center;
+  background-position: bottom right;
   background-repeat: no-repeat;
-  padding-bottom: 400px;
+  padding-bottom: 580px;
+}
+
+.modules-container-wrapper {
+  pading : 0 370px;
 }
 
 .modules-container {
-  /*background: #f2f2f2;*/
-  width: 1550px;
-  margin-top: 51px;
-  margin-left: 370px;
+
 }
 
 .main-content {
@@ -102,13 +101,12 @@ a {
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
-  width: 1040px;
   border: 2px solid black;
 }
 
 .modules-card {
-  width: 480px;
-  height: 508px;
+  min-width: 480px;
+  min-height: 508px;
   margin: 24px;
   background-position: left top;
   background-size: 480px 200px;
@@ -355,7 +353,7 @@ a {
   font-size: 48px;
   line-height: 56px;
   letter-spacing: 0.48px;
-  color: #EAEAEA;
+  color: #eae;
 }
 
 .modules-btn {
