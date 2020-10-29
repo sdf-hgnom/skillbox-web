@@ -52,16 +52,13 @@ a {
 /* Containers for pages and figures*/
 .modules-body {
   width: 1920px;
+  padding-bottom: 700px;
   box-sizing: border-box;
   background-image: url("../images/figure_1.svg");
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-bottom: 700px;
 }
 
-.modules-container-wrapper {
-  padding : 0 370px;
-}
 
 .modules-container {
   padding: 0 370px;
@@ -90,31 +87,29 @@ a {
   padding-left: 290px;
   margin-top: 35px;
   margin-bottom: 55px;
-
 }
 
 .modules-card-container {
-  list-style: none;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   counter-reset: modules-card;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid black;
+  list-style: none;
 }
 
 .modules-card {
-  display: block;
+  display: inline-block;
   position: relative;
+  width: 45%;
   min-width: 480px;
   min-height: 508px;
   margin: 24px;
   background-position: left top;
-  background-size: 480px 200px;
+  background-size: contain;
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
 }
 
@@ -143,18 +138,18 @@ a {
 
 .modules-card-base-html {
   background-image: url("../images/photo-2.png");
-  margin-left: 0;
+  /* margin-left: 0; */
 }
 
 .modules-card-base-css {
   background-image: url("../images/photo-3.png");
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 .modules-card-work {
   background-image: url("../images/photo-4.png");
   margin-left: 0;
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 .figure-caption {
@@ -174,7 +169,7 @@ a {
 }
 
 .modules-main-header {
-  margin-top: 79px;
+  margin-bottom: 70px;
   margin-left: 110px;
   font-weight: 800;
   font-size: 48px;
@@ -214,6 +209,10 @@ a {
   color: #fff;
 }
 
+.programm-link-modules {
+  cursor: pointer;
+}
+
 .navigation-link-download {
   border: 3px solid #2f1ce4;
   padding: 20px;
@@ -221,6 +220,7 @@ a {
 }
 
 .navigation-link-detail {
+
   border: 3px solid #fff;
   padding: 20px;
   background-color: transparent;
@@ -236,8 +236,9 @@ a {
 }
 
 .modules-navigation-link-back {
+  margin-top: 25px;
   display: block;
-  margin-top: 23px;
+  margin-bottom: 79px;
   font-size: 18px;
   line-height: 56px;
 }
@@ -247,7 +248,6 @@ a {
 }
 
 .modules-skillbox-link {
-  margin-top: 1px;
   margin-left: 1px;
   text-decoration: underline;
   text-decoration-color: #2f1ce4;
@@ -351,8 +351,6 @@ a {
   margin-top: 15px;
 }
 
-
-
 .modules-cards-ul {
   margin-left: 55px;
   list-style: none;
@@ -369,19 +367,19 @@ a {
   background: #fff;
 }
 
-
 .modules-btn {
   display: block;
   width: 280px;
   margin: 0 auto;
   margin-top: 94px;
-  border: 3px solid #2f1ce4;
-  border-radius: 2px;
   font-size: 18px;
   line-height: 56px;
+  letter-spacing: 0.18px;
   color: #2f1ce4;
   background: rgba(0, 0, 0, 0.0001);
   text-align: center;
+  border: 3px solid #2f1ce4;
+  border-radius: 2px;
 }
 
 .modules-figure {
@@ -390,5 +388,6 @@ a {
 }
 
 .modules-wraper {
+  margin-left: 54px;
   width: 100%;
 }
