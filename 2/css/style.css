@@ -54,16 +54,17 @@ a {
   width: 1920px;
   box-sizing: border-box;
   background-image: url("../images/figure_1.svg");
-  background-position: bottom right;
+  background-position: bottom;
   background-repeat: no-repeat;
-  padding-bottom: 580px;
+  padding-bottom: 700px;
 }
 
 .modules-container-wrapper {
-  pading : 0 370px;
+  padding : 0 370px;
 }
 
 .modules-container {
+  padding: 0 370px;
 
 }
 
@@ -93,18 +94,22 @@ a {
 }
 
 .modules-card-container {
+  list-style: none;
+  width: 100%;
+  counter-reset: modules-card;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: 1 1 auto;
+
   justify-content: space-between;
-  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
 }
 
 .modules-card {
+  display: block;
+  position: relative;
   min-width: 480px;
   min-height: 508px;
   margin: 24px;
@@ -113,21 +118,40 @@ a {
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
 }
 
-.modules-card-1 {
+.modules-card-number {
+  counter-increment: modules-card;
+
+}
+
+.modules-card-number:after {
+  position: absolute;
+  content: '0'counter(modules-card);
+  z-index: 10;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  text-align: right;
+  color: #eaeaea;
+}
+
+.modules-card-intro {
   background-image: url("../images/photo-1.png");
 }
 
-.modules-card-2 {
+.modules-card-base-html {
   background-image: url("../images/photo-2.png");
   margin-left: 0;
 }
 
-.modules-card-3 {
+.modules-card-base-css {
   background-image: url("../images/photo-3.png");
   margin-top: 0;
 }
 
-.modules-card-4 {
+.modules-card-work {
   background-image: url("../images/photo-4.png");
   margin-left: 0;
   margin-top: 0;
@@ -345,16 +369,6 @@ a {
   background: #fff;
 }
 
-.modules-card-number {
-  position: absolute;
-  top: 240px;
-  right: 14px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 56px;
-  letter-spacing: 0.48px;
-  color: #eae;
-}
 
 .modules-btn {
   display: block;
