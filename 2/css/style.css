@@ -120,7 +120,7 @@ a {
 
 .modules-card-number:after {
   position: absolute;
-  content: '0'counter(modules-card);
+  content: counter(modules-card,decimal-leading-zero);
   z-index: 10;
   right: 20px;
   bottom: 20px;
@@ -251,7 +251,7 @@ a {
   margin-left: 1px;
   text-decoration: underline;
   text-decoration-color: #2f1ce4;
-  font-family: "Graphik";
+  font-family: "Graphik LCG";
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
