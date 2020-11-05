@@ -4,111 +4,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--
-  <link rel="stylesheet" href="./css/style.css">
-  -->
+
   <style>
-    .test-body {
-      padding-bottom: 580px;
+    .modules-card {
+      /* display: inline-block;
+      position: relative;
+*/
+      width: 480px;
+      height: 508px;
+      margin: 24px;
+
+      box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
+    }
 
 
-      box-sizing: border-box;
-      width: 1920px;
-      background-image: url("images/figure_1.svg");
+    .modules-card-intro {
+
+      background-image: url("../images/photo-1.png");
+      background-position: left top;
+      background-size: contain;
       background-repeat: no-repeat;
-      background-position: bottom right;
-
-
-    }
-
-    .modules-container {
-      padding: 0 370px;
-    }
-
-    .modules-header {
-      font-size: 40px;
-      font-weight: 500;
-      letter-spacing: 0.4px;
-      text-align: left;
-      color: #222020;
-      margin-bottom: 25px;
-    }
-
-    .modules-back {
-      font-size: 18px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 3.11;
-      letter-spacing: 0.18px;
-      text-align: left;
-      color: #222020;
-      margin-bottom: 79px;
-    }
-
-    .modules-btn {
-      display: block;
-      width: 280px;
-      margin: 0 auto;
-      margin-top: 94px;
-      border: 3px solid #2f1ce4;
-      border-radius: 2px;
-      font-size: 18px;
-      line-height: 56px;
-      color: #2f1ce4;
-      background: rgba(0, 0, 0, 0.0001);
-      text-align: center;
-    }
-
-    .modules-main-header {
-      margin-bottom: 70px;
-      padding-left: 100px;
     }
 
     .modules-card-container {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      list-style: none;
-      counter-reset: modules-card 0;
       margin: 0 auto;
-
     }
 
-    .modules-card-item {
-      counter-increment: modules-card;
-      position: relative;
-      display: block;
-      min-width: 480px;
-      min-height: 500px;
-      margin-bottom: 54px;
-      padding-left: 54px;
-
-      box-shadow: -2.9px 0.9px 20px 0 rgba(83, 83, 83, 0.31);
-
-    }
-
-    .modules-card-item:after {
-      position: absolute;
-      content: '0'counter(modules-card);
-      z-index: 10;
-      right: 20px;
-      bottom: 20px;
-      font-size: 48px;
-      font-weight: 500;
-
-      line-height: 1.17;
-      letter-spacing: 0.48px;
-      text-align: right;
-      color: #eaeaea;
-    }
     .wrapper {
-      padding: 0 54px;
+      width: 100%;
     }
-    .last-row {
-      margin-bottom: 0;
+
+    .modules-card-opis {
+      /* padding-top: 200px;
+      padding-left: 54px; */
+
+      /* background: #fff; */
+    }
+
+    .modules-cards-ul {
+      /* list-style: none;
+      font-size: 16px;
+      line-height: 30px;
+      color: #222020;
+      letter-spacing: 0.16px; */
+    }
+
+    .modules-cards-header {
+      /* font-weight: 800;
+      font-size: 36px;
+      line-height: 56px; */
+    }
+
+    .modules-body {
+      width: 1920px;
+    }
+
+    .modules-container {
+      width: 1180px;
+      margin: 0 auto;
+      background: #000;
+
     }
   </style>
   <script>
@@ -120,32 +75,25 @@
 </head>
 
 
-
-<body class="test-body">
+<body class="modules-body">
   <div class="modules-container">
-    <div class="modules-header">Skillbox</div>
-    <div class="modules-back">Назад</div>
-    <h1 class="modules-main-header">Модули курса Веб-верстка</h1>
-    <div class="wrapper">
-      <ol class="modules-card-container">
-        <li class="modules-card-item">
-          <h2 class="modules-card-header">Введение</h2>
-          <ul class="modules-card-descr">
-            <li class="modules-card-descr-items ">Базовые теги</li>
-            <li class="modules-card-descr-items">Теги картинок и ссылок</li>
-            <li class="modules-card-descr-items">Теги таблиц</li>
-            <li class="modules-card-descr-items">Служебные теги</li>
-            <li class="modules-card-descr-items">Кодстайл HTML</li>
+    <ol class="modules-card-container">
+      <li">
+        <div class="modules-card modules-card-number   modules-card-intro">
+        <div class="modules-card-opis">
+          <h2 class="modules-cards-header color-skillbox">Введение</h2>
+          <ul class="modules-cards-ul">
+            <li>Как работают сайты. Верстка</li>
+            <li>Возможности HTML, CSS, JS</li>
+            <li>Редактор кода. Codepen</li>
+            <li>Работа с DevTools</li>
+
           </ul>
-        </li>
-        <li class="modules-card-item"></li>
-        <li class="modules-card-item last-row "></li>
-        <li class="modules-card-item last-row "></li>
+        </div>
+      </div>
+      </li>
+    </ol>
 
-      </ol>
-    </div>
-
-    <botton class="modules-btn" onclick="test()">Test is test</botton>
   </div>
 </body>
 
