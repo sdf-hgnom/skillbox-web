@@ -63,7 +63,7 @@ a {
 .modules-container {
   width: 1180px;
 margin: 0 auto;
-padding-top: 25px;
+padding-top: 50px;
 
 }
 
@@ -92,9 +92,10 @@ padding-top: 25px;
 }
 
 .modules-card-container {
-  width: 1010px;
+  width: 1020px;
   vertical-align: middle;
   margin: 0 auto;
+  margin-bottom: 94px;
 
   counter-reset: modules-card;
   display: flex;
@@ -115,14 +116,17 @@ padding-top: 25px;
   position: absolute;
   content: counter(modules-card,decimal-leading-zero);
   z-index: 10;
-  right: 20px;
-  bottom: 20px;
+  right: 14px;
+  bottom: 14px;
+  font-family: "Gilroy";
   font-size: 48px;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.48px;
   text-align: right;
   color: #eaeaea;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -137,7 +141,7 @@ padding-top: 25px;
 
 /* Headers */
 .main-header {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   font-family: "Graphik LCG", sans-serif;
   font-weight: 500;
   color: #fff;
@@ -218,6 +222,7 @@ padding-top: 25px;
 
 .modules-skillbox-link {
   margin-left: 1px;
+  margin-bottom: 25px;
   text-decoration: underline;
   text-decoration-color: #2f1ce4;
   font-family: "Graphik LCG";
@@ -323,7 +328,9 @@ padding-top: 25px;
 .modules-card {
   display: inline-block;
   position: relative;
-  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 200px;
+  padding-left: 54px;
   background-repeat: no-repeat;
   background-position: 0 0;
   background-origin: border-box;
@@ -336,11 +343,7 @@ padding-top: 25px;
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
 }
 
-.modules-card-background {
-  background-position: left top;
-  background-size: contain;
 
-}
 
 .modules-card-intro {
 
@@ -362,11 +365,7 @@ padding-top: 25px;
   background-image: url("../images/photo-4.png");
   /* margin-top: 0; */
 }
-.modules-card-opis {
-  padding-top: 200px;
-  padding-left: 54px;
 
-}
 .modules-cards-ul {
   list-style: none;
   font-size: 16px;
@@ -384,7 +383,7 @@ padding-top: 25px;
   display: block;
   width: 280px;
   margin: 0 auto;
-  margin-top: 94px;
+
   font-size: 18px;
   line-height: 56px;
   letter-spacing: 0.18px;
