@@ -51,6 +51,7 @@ a {
 
 /* Containers for pages and figures*/
 .modules-body {
+  width: 1920px;
   padding-bottom: 700px;
   box-sizing: border-box;
   background-image: url("../images/figure_1.svg");
@@ -62,7 +63,7 @@ a {
 .modules-container {
   width: 1180px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 54px;
 
 }
 
@@ -220,8 +221,8 @@ a {
 
 .modules-skillbox-link {
   margin-left: 1px;
-  margin-bottom: 25px;
-  text-decoration: underline;
+  margin-bottom: 21px;
+  text-decoration: none;
   text-decoration-color: #2f1ce4;
   font-family: "Graphik LCG";
   font-size: 40px;
@@ -335,6 +336,7 @@ a {
   background-size: 480px 200px;
 
   width: 480px;
+  max-height: 508px;
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
 }
 
