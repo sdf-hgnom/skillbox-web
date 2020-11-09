@@ -62,7 +62,7 @@ a {
 .modules-container {
   width: 1180px;
   margin: 0 auto;
-  padding-top: 54px;
+  padding-top: 58px;
 
 }
 
@@ -124,7 +124,7 @@ a {
   letter-spacing: 0.48px;
   text-align: right;
   color: #eaeaea;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 
@@ -146,7 +146,7 @@ a {
 }
 
 .modules-main-header {
-  margin-bottom: 70px;
+  margin-bottom: 78px;
   margin-left: 110px;
   font-weight: 800;
   font-size: 48px;
@@ -220,7 +220,7 @@ a {
 
 .modules-skillbox-link {
   margin-left: 1px;
-  margin-bottom: 21px;
+  margin-bottom: 104px;
   text-decoration: none;
   text-decoration-color: #2f1ce4;
   font-family: "Graphik LCG";
@@ -325,7 +325,7 @@ a {
 .modules-card {
   display: inline-block;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 59px;
   padding-top: 200px;
   padding-left: 54px;
   background-repeat: no-repeat;
@@ -348,17 +348,14 @@ a {
 
 .modules-card-base-html {
   background-image: url("../images/photo-2.png");
-  /* margin-left: 0; */
 }
 
 .modules-card-base-css {
   background-image: url("../images/photo-3.png");
-  /* margin-top: 0; */
 }
 
 .modules-card-work {
   background-image: url("../images/photo-4.png");
-  /* margin-top: 0; */
 }
 
 .modules-cards-ul {
@@ -379,7 +376,6 @@ a {
   display: block;
   width: 280px;
   margin: 0 auto;
-
   font-size: 18px;
   line-height: 56px;
   letter-spacing: 0.18px;
