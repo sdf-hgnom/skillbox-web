@@ -61,7 +61,7 @@ a {
 .modules-container {
   width: 1180px;
   margin: 0 auto;
-  padding-top: 58px;
+  padding-top: 49px;
 }
 
 .main-content {
@@ -92,7 +92,7 @@ a {
   width: 1020px;
   vertical-align: middle;
   margin: 0 auto;
-  margin-bottom: 94px;
+  margin-bottom: 52px;
 
   counter-reset: modules-card;
   display: flex;
@@ -109,7 +109,6 @@ a {
 .modules-card-number:after {
   position: absolute;
   content: counter(modules-card, decimal-leading-zero);
-  z-index: 10;
   right: 14px;
   bottom: 14px;
   font-family: "Gilroy";
@@ -139,7 +138,7 @@ a {
 
 .modules-main-header {
   margin-bottom: 78px;
-  margin-left: 110px;
+  margin-left: 102px;
   font-weight: 800;
   font-size: 48px;
   line-height: 56px;
@@ -198,9 +197,9 @@ a {
 
 .modules-navigation-link-back {
   display: block;
-  margin-bottom: 79px;
+  margin-bottom: 56px;
   font-size: 18px;
-  line-height: 56px;
+  line-height: 101px;
 }
 
 .tags-link {
@@ -314,7 +313,7 @@ a {
   display: inline-block;
   position: relative;
   margin-bottom: 59px;
-  padding-top: 200px;
+  padding-top: 195px;
   padding-left: 54px;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -322,7 +321,7 @@ a {
   background-size: 480px 200px;
 
   width: 480px;
-  max-height: 508px;
+  min-height: 500px;
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
 }
 
@@ -345,7 +344,7 @@ a {
 .modules-cards-ul {
   list-style: none;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 40px;
   color: #222020;
   letter-spacing: 0.16px;
 }
@@ -361,7 +360,7 @@ a {
   width: 280px;
   margin: 0 auto;
   font-size: 18px;
-  line-height: 56px;
+  line-height: 68px;
   letter-spacing: 0.18px;
   color: #2f1ce4;
   background: rgba(0, 0, 0, 0.0001);
