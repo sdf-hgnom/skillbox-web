@@ -1,37 +1,33 @@
 @font-face {
+  src: url("../fonts/GraphikLCG-Medium.woff2") format("woff2"),    url("../fonts/GraphikLCG-Medium.woff") format("woff");
   font-family: "Graphik LCG";
-  src: url("../fonts/GraphikLCG-Medium.woff2") format("woff2"),
-    url("../fonts/GraphikLCG-Medium.woff") format("woff");
-  font-display: swap;
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),    url("../fonts/Gilroy-Regular.woff") format("woff");
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
-    url("../fonts/Gilroy-Regular.woff") format("woff");
-  font-display: swap;
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
+  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"),
-    url("../fonts/Gilroy-ExtraBold.woff") format("woff");
-  font-display: swap;
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),    url("../fonts/Gilroy-Medium.woff") format("woff");
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
-    url("../fonts/Gilroy-Medium.woff") format("woff");
-  font-display: swap;
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -45,11 +41,11 @@ body {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
 }
 
-/* Containers for pages and figures*/
+/* Containers for pages and figures */
 .modules-body {
   padding-bottom: 700px;
   box-sizing: border-box;
@@ -59,61 +55,59 @@ a {
 }
 
 .modules-container {
-  width: 1180px;
   margin: 0 auto;
   padding-top: 49px;
+  width: 1180px;
 }
 
 .main-content {
   display: flex;
-  height: 100vh;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
   background-color: #222020;
 }
 
 .container {
-  width: 1170px;
   margin: 0 auto;
   padding-top: 51px;
   padding-bottom: 30px;
+  width: 1170px;
 }
 
 .figure-container {
   display: table;
-  text-align: center;
-  padding-left: 290px;
   margin-top: 35px;
   margin-bottom: 55px;
+  padding-left: 290px;
+  text-align: center;
 }
 
 .modules-card-container {
-  width: 1020px;
+  counter-reset: modules-card;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
   vertical-align: middle;
   margin: 0 auto;
   margin-bottom: 52px;
-
-  counter-reset: modules-card;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  list-style: none;
+  width: 1020px;
 }
 
 .modules-card-number {
   counter-increment: modules-card;
 }
 
-.modules-card-number:after {
-  position: absolute;
+.modules-card-number::after {
   content: counter(modules-card, decimal-leading-zero);
+  position: absolute;
   right: 14px;
   bottom: 14px;
   font-family: "Gilroy";
-  font-size: 48px;
   font-weight: 500;
+  font-size: 48px;
   line-height: 1.17;
   letter-spacing: 0.48px;
   text-align: right;
@@ -152,9 +146,9 @@ a {
 }
 
 .other-headers {
-  padding-left: 180px;
   padding-top: 85px;
   padding-bottom: 25px;
+  padding-left: 180px;
   font-size: 36px;
 }
 
@@ -187,12 +181,12 @@ a {
 }
 
 .navigation-link-back {
-  background-image: url("../images/return.png");
-  background-repeat: no-repeat;
-  background-size: 27px;
-  background-position: left center;
   padding-left: 46px;
   color: #000;
+  background-image: url("../images/return.png");
+  background-position: left center;
+  background-size: 27px;
+  background-repeat: no-repeat;
 }
 
 .modules-navigation-link-back {
@@ -207,17 +201,17 @@ a {
 }
 
 .modules-skillbox-link {
-  margin-left: 1px;
   margin-bottom: 104px;
-  text-decoration: none;
-  text-decoration-color: #2f1ce4;
+  margin-left: 1px;
   font-family: "Graphik LCG";
-  font-size: 40px;
-  font-style: normal;
   font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
   line-height: 56px;
   letter-spacing: 0.4px;
   text-align: left;
+  text-decoration: none;
+  text-decoration-color: #2f1ce4;
 }
 
 .color-skillbox {
@@ -233,33 +227,33 @@ a {
 
 .programm-list {
   padding-left: 200px;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
 }
 
 .programm-list-items {
-  color: #000;
-  line-height: 2.1;
   font-weight: 400;
+  line-height: 2.1;
+  color: #000;
 }
 
 .all-paragrafs {
-  padding-left: 180px;
   padding-bottom: 45px;
+  padding-left: 180px;
   letter-spacing: 1.5px;
 }
 
 .all-images {
-  margin: 0 auto;
   display: inline-block;
+  margin: 0 auto;
   max-width: 600px;
 }
 
 .tags {
   margin-top: 236px;
   margin-left: 102px;
-  width: 980px;
   border-collapse: collapse;
+  width: 980px;
 }
 
 .tags-border {
@@ -271,13 +265,13 @@ a {
 }
 
 .tags-items-th {
-  height: 36px;
   padding: 2px;
+  height: 36px;
 }
 
 .tags-items-td {
-  height: 60px;
   padding: 2px;
+  height: 60px;
 }
 
 .tags-item-left1-td {
@@ -285,8 +279,8 @@ a {
 }
 
 .tags-item-left2-td {
-  width: 340px;
   padding-left: 10px;
+  width: 340px;
   font-size: 14px;
 }
 
@@ -295,14 +289,14 @@ a {
 }
 
 .tags-item-right2-td {
-  width: 280px;
   padding-left: 10px;
+  width: 280px;
   font-size: 14px;
 }
 
 .tags-item-last {
-  text-align: center;
   font-weight: 700;
+  text-align: center;
 }
 
 .info-list-li {
@@ -310,19 +304,18 @@ a {
 }
 
 .modules-card {
-  display: inline-block;
   position: relative;
+  display: inline-block;
   margin-bottom: 59px;
   padding-top: 195px;
   padding-left: 54px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-origin: border-box;
-  background-size: 480px 200px;
-
   width: 480px;
   min-height: 500px;
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
+  background-position: 0 0;
+  background-size: 480px 200px;
+  background-repeat: no-repeat;
+  background-origin: border-box;
 }
 
 .modules-card-intro {
@@ -345,8 +338,8 @@ a {
   list-style: none;
   font-size: 16px;
   line-height: 40px;
-  color: #222020;
   letter-spacing: 0.16px;
+  color: #222020;
 }
 
 .modules-cards-header {
@@ -357,14 +350,14 @@ a {
 
 .modules-btn {
   display: block;
-  width: 280px;
   margin: 0 auto;
+  border: 3px solid #2f1ce4;
+  border-radius: 2px;
+  width: 280px;
   font-size: 18px;
   line-height: 68px;
   letter-spacing: 0.18px;
+  text-align: center;
   color: #2f1ce4;
   background: rgba(0, 0, 0, 0.0001);
-  text-align: center;
-  border: 3px solid #2f1ce4;
-  border-radius: 2px;
 }
