@@ -96,11 +96,7 @@ a {
   width: 1020px;
 }
 
-.modules-card-number {
-  counter-increment: modules-card;
-}
-
-.modules-card-number::after {
+.modules-card::after {
   content: counter(modules-card, decimal-leading-zero);
   position: absolute;
   right: 14px;
@@ -304,6 +300,7 @@ a {
 }
 
 .modules-card {
+  counter-increment: modules-card;
   position: relative;
   display: inline-block;
   margin-bottom: 59px;
