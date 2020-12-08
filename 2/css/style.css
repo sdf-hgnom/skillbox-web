@@ -90,9 +90,8 @@ a {
   flex-flow: row wrap;
   justify-content: space-between;
   list-style: none;
-  vertical-align: middle;
   margin: 0 auto;
-  margin-bottom: 52px;
+  margin-bottom: 90px;
   width: 1020px;
 }
 
@@ -303,7 +302,6 @@ a {
   counter-increment: modules-card;
   position: relative;
   display: inline-block;
-  margin-bottom: 59px;
   padding-top: 195px;
   padding-left: 54px;
   width: 480px;
@@ -316,10 +314,12 @@ a {
 }
 
 .modules-card-intro {
+  margin-bottom: 59px;
   background-image: url("../images/photo-1.png");
 }
 
 .modules-card-base-html {
+  margin-bottom: 59px;
   background-image: url("../images/photo-2.png");
 }
 
@@ -347,6 +347,7 @@ a {
   padding-top: 30px;
   font-weight: 800;
   font-size: 36px;
+  color: #2f1ce4;
 }
 
 .modules-btn {
