@@ -1,5 +1,5 @@
 @font-face {
-  src: url("../fonts/GraphikLCG-Medium.woff2") format("woff2")     url("../fonts/GraphikLCG-Medium.woff") format("woff");
+  src: url("../fonts/GraphikLCG-Medium.woff2") format("woff2"), url("../fonts/GraphikLCG-Medium.woff") format("woff");
   font-family: "Graphik LCG";
   font-weight: 500;
   font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  src: url("../fonts/Gilroy-Regular.woff2") format("woff2")    url("../fonts/Gilroy-Regular.woff") format("woff");
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
   font-family: "Gilroy";
   font-weight: 400;
   font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2") url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
   font-family: "Gilroy";
   font-weight: 800;
   font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  src: url("../fonts/Gilroy-Medium.woff2") format("woff2")    url("../fonts/Gilroy-Medium.woff") format("woff");
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
   font-family: "Gilroy";
   font-weight: 500;
   font-style: normal;
@@ -302,8 +302,7 @@ a {
   counter-increment: modules-card;
   position: relative;
   display: inline-block;
-  padding-top: 195px;
-  padding-left: 54px;
+  padding: 210px 65px 65px 54px;
   width: 480px;
   min-height: 500px;
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
