@@ -302,7 +302,7 @@ a {
   counter-increment: modules-card;
   position: relative;
   display: inline-block;
-  padding: 210px 65px 65px 54px;
+  padding: 210px 60px 60px 54px;
   width: 480px;
   min-height: 500px;
   box-shadow: -2.9px 0.9px 20px rgba(83, 83, 83, 0.31);
