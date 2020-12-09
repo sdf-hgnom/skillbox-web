@@ -49,7 +49,7 @@ a {
 .modules-body {
   padding-bottom: 700px;
   box-sizing: border-box;
-  background-image: url("../images/figure_1.svg");
+  background-image: url("../images/page-bg.svg");
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -314,20 +314,20 @@ a {
 
 .modules-card-intro {
   margin-bottom: 59px;
-  background-image: url("../images/photo-1.png");
+  background-image: url("../images/photo-intro.png");
 }
 
 .modules-card-base-html {
   margin-bottom: 59px;
-  background-image: url("../images/photo-2.png");
+  background-image: url("../images/photo-code.png");
 }
 
 .modules-card-base-css {
-  background-image: url("../images/photo-3.png");
+  background-image: url("../images/photo-css.png");
 }
 
 .modules-card-work {
-  background-image: url("../images/photo-4.png");
+  background-image: url("../images/photo-work.png");
 }
 
 .modules-cards-ul {
