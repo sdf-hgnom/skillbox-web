@@ -188,7 +188,7 @@ a {
   display: block;
   margin-bottom: 56px;
   font-size: 18px;
-  line-height: 101px;
+  /* line-height: 101px; */
 }
 
 .tags-link {
@@ -196,13 +196,14 @@ a {
 }
 
 .modules-skillbox-link {
-  margin-bottom: 104px;
+  display: inline-block;
+  margin-bottom: 60px;
   margin-left: 1px;
   font-family: "Graphik LCG";
   font-weight: 500;
   font-style: normal;
   font-size: 40px;
-  line-height: 56px;
+  /* line-height: 56px; */
   letter-spacing: 0.4px;
   text-align: left;
   text-decoration: none;
@@ -341,9 +342,13 @@ a {
   margin-bottom: 20px;
 }
 
+.modules-card-ul-text:last-child {
+  margin-bottom: 0;
+}
+
 .modules-cards-header {
   margin-bottom: 20px;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   font-weight: 800;
   font-size: 36px;
   color: #2f1ce4;
